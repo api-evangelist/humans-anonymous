@@ -1,9 +1,25 @@
 aid: humans-anonymous
 name: Humans Anonymous
-description: Humans Anonymous is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Humans Anonymous is a consumer mobile application offering anonymous audio spaces for
+  mental health and peer support, built on the premise that "being a human is hard" and no one should
+  face it alone. Distributed as an iOS app, it lets people join anonymous, real-time audio rooms to
+  talk and listen around mental wellbeing. Surfaced as a portfolio company of General Catalyst and
+  added to the API Evangelist network; the company publishes a consumer product website (humansanon.com)
+  with privacy and terms pages but exposes no public developer API, SDK, or documentation surface at
+  this time.
 url: https://raw.githubusercontent.com/api-evangelist/humans-anonymous/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://humansanon.com/assets/og/humans.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +28,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mental Health
+- Wellbeing
+- Audio
+- Social
+- Mobile App
+- Consumer
 apis: []
+common:
+- type: Website
+  url: https://humansanon.com/
+- type: PrivacyPolicy
+  url: https://humansanon.com/privacy
+- type: TermsOfService
+  url: https://humansanon.com/terms
+- type: SignUp
+  url: https://apps.apple.com/app/id1616020892
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
