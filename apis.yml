@@ -8,6 +8,17 @@ description: Humans Anonymous is a consumer mobile application offering anonymou
   with privacy and terms pages but exposes no public developer API, SDK, or documentation surface at
   this time.
 url: https://raw.githubusercontent.com/api-evangelist/humans-anonymous/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
